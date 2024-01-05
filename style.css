@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(123, 3, 3);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+.header-img{
+    height: 55rem;
+    width: 100%;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+#about p{
+    font-size: larger;
+}
+
+#about,
+#products,
+#payment {
+    margin-bottom: 100px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.product img {
+    max-width: 20%;
+}
+
+.price {
+    font-weight: bold;
+    color: #e44d26; /* cor laranja para o preço */
+}
+
+#payment img{
+    max-width: 5%;
+}
+
+#midias-insta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#instagram-media{
+    margin: 10px;
+}
+
+footer, a {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e44d26;
+}
